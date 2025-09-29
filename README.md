@@ -44,7 +44,6 @@ El sistema permite ejecutar diferentes fases desde un **menú interactivo**, apl
 ```
 ├── kernel.cu   # Archivo principal con todas las fases CUDA
 ├── README.md   # Este archivo
-└── /imagenes   # Carpeta sugerida para pruebas (input/output BMP)
 ```
 
 ---
@@ -76,7 +75,7 @@ nvcc -o procesamiento kernel.cu
 ---
 
 ## 📊 Resultados
-
+Los resultados obtenidos del código se encuentran en la memoria del proyecto.
 - **Imágenes generadas:**  
   - `grayscale.bmp`  
   - `pixelated.bmp`  
